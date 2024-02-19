@@ -13,7 +13,7 @@ export const Project = (props: ProjectPropsType) => {
     return(
         <StyledProject>
             <Image src={props.src} alt={props.alt}/>
-            <Description marginLeft="5%" maxWidth="90%" textAlign="start">
+            <Description margin="0 5%"  textAlign="start">
                 <Title>{props.title}</Title>
                 <Text>{props.text}</Text>
             </Description>
@@ -25,7 +25,7 @@ const StyledProject = styled.div`
     display: flex;
     flex-direction: column;
     max-width: 600px;
-   height: 535px;
+   max-height: 535px;
     background-color: ${Theme.colors.secondaryBg};
     border-radius: 20px;
 `
@@ -53,7 +53,7 @@ margin: 35px 0 0 0;
 const Text = styled.p`
     font-size: 18px;
     line-height: 21px;
-    margin: 7px 0 0;
+    margin: 7px 0 45px;
 
   overflow: hidden;
   display: -webkit-box;

@@ -16,8 +16,8 @@ function App() {
       <MainSection/>
       <Skills/>
       <Projects/>
-      <AboutMe src={MyPhoto}/>
-      <Contacts/>
+      {/* <AboutMe src={MyPhoto}/> */}
+      {/* <Contacts/> */}
     </div>
   );
 }

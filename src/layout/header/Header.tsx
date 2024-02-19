@@ -17,14 +17,12 @@ const items = [
 export const Header = () => {
   return (
     <StyledHeader>
-      <Container backgroundColor="transparent">
-        <ContentContainer >
+      <Container>
         <FlexWrapper justify="space-between" align="center">
           <Logo />
           <HeaderMenu menuItems={items} />
           <MobileMenu menuItems={items}/>
         </FlexWrapper>
-        </ContentContainer>
       </Container>
     </StyledHeader>
   );
@@ -33,7 +31,6 @@ export const Header = () => {
 const StyledHeader = styled.header`
 height: 50px;
   text-transform: uppercase;
-  padding: 0 0;
   position: fixed;
   top: 0;
   left: 0;

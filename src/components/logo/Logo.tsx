@@ -13,7 +13,6 @@ export const Logo = () =>{
 
 
 const StyledIcon = styled.div`
-  &:hover svg {
-    width: 50px;
-  }
+  display: flex;
+  justify-content: flex-start;
 `

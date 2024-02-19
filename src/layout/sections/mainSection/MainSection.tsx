@@ -48,7 +48,6 @@ const Title = styled.div`
   }
 
   @media ${Theme.media.tablet} {
-  /* max-height: 85px; */
   margin: 290px auto 180px;
 }
 `;
@@ -56,7 +55,7 @@ const Title = styled.div`
 const StyledMain = styled.section`
   height: 100vh;
   display: flex;
-  // background-color: #efb8b85e;
+  padding:0;
 `;
 
 const Name = styled.h3`

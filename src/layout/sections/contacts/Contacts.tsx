@@ -9,7 +9,7 @@ export const Contacts = () => {
     return(
         <StyledContacts>
             <Container>
-                <ContentContainer>
+                {/* <ContentContainer> */}
                     <FlexWrapper justify="space-between" align="center" wrap="wrap">
                         <FlexWrapper justify="space-between" align="center" height="95%">
                         <Call><span>let’s talk about your project!</span></Call>
@@ -24,7 +24,7 @@ export const Contacts = () => {
                         </FlexWrapper>
                         <Copyright>© 2024 Mryasov Slava. All Rights Reserved.</Copyright>
                     </FlexWrapper>
-                </ContentContainer>
+                {/* </ContentContainer> */}
             </Container>
         </StyledContacts>
     )

@@ -1,15 +1,11 @@
 import styled from "styled-components"
 
-type ContainerPropsType = {
-    backgroundColor?: string,
-}
 
-export const Container = styled.div<ContainerPropsType>`
-    max-width: 100vw;
+export const Container = styled.div`
+    max-width: 1440px;
     width: 100%;
     height: 100%;
-    padding: 0 0;
+    padding: 0 6%;
     margin: 0 0;
     outline: 1px solid red;
-    background-color: ${props => props.backgroundColor || "#2B2B2B"};
 `

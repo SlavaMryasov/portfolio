@@ -7,6 +7,6 @@ font-family: "Jura", "sans-serif";
 font-size: 40px;
 font-weight: 400;
 color: ${Theme.colors.font};
-margin-top: 90px;
+margin-bottom: 40px;
 text-transform: uppercase;
 `

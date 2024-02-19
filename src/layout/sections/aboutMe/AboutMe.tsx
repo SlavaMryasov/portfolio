@@ -13,19 +13,19 @@ export const AboutMe = (props: AboutMePropsType) => {
     return(
         <StyledAboutMe>
             <Container>
-                <ContentContainer>
+                {/* <ContentContainer> */}
                 <Grid>
                 
                     <Quote >consectetur de adipiscing elit, sed do eiusmod dolore</Quote>
                     <PhotoWrapper>
                     <Photo alt="Photo Slava" src={props.src}/>
                     </PhotoWrapper>
-                    <Description maxWidth="400px"  textAlign="start" marginTop="0"><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem consectetur suscipit aut tempore non velit laudantium fuga hic dolores nam, doloremque itaque quod est inventore numquam dolor. Commodi a quasi veniam illo quidem, impedit doloremque nulla magni tempore sed atque deleniti doloribus molestias non, quia dicta sunt nihil. Impedit similique quibusdam quaerat vel amet, perspiciatis deleniti nihil obcaecati minima laudantium labore, asperiores officiis sapiente velit eos! Consequuntur impedit quo odio quidem totam voluptatum, velit iste! Esse tempore, illum porro, iste itaque fugit rerum debitis voluptates eligendi enim temporibus soluta quidem.</p></Description>
+                    <Description maxWidth="400px"  textAlign="start" ><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem consectetur suscipit aut tempore non velit laudantium fuga hic dolores nam, doloremque itaque quod est inventore numquam dolor. Commodi a quasi veniam illo quidem, impedit doloremque nulla magni tempore sed atque deleniti doloribus molestias non, quia dicta sunt nihil. Impedit similique quibusdam quaerat vel amet, perspiciatis deleniti nihil obcaecati minima laudantium labore, asperiores officiis sapiente velit eos! Consequuntur impedit quo odio quidem totam voluptatum, velit iste! Esse tempore, illum porro, iste itaque fugit rerum debitis voluptates eligendi enim temporibus soluta quidem.</p></Description>
                     
                     
                     
                     </Grid>
-                </ContentContainer>
+                {/* </ContentContainer> */}
             </Container>
         </StyledAboutMe>
     )

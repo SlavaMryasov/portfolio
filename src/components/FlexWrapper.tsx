@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { Theme } from "../styles/Theme";
 
 type FlexWrapperPropsType = {
     direction?: string,
@@ -19,4 +20,8 @@ export const FlexWrapper = styled.div<FlexWrapperPropsType>`
     padding: ${props => props.padding || 0};
     height: ${props => props.height || "100%"};
     gap: ${props => props.gap || "0"};
+
+@media screen and (max-width: 1240px){
+    justify-content: ${props => props.justify || "flex-start"};
+}
 `
